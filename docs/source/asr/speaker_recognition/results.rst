@@ -30,7 +30,7 @@ Where the model base class is the ASR model class of the original checkpoint, or
 Speaker Label Inference
 ------------------------
 
-Speaker label Inference, is to infer speaker labels from a pretrained speaker model with known speaker labels. We provide `speaker_reco_infer.py` script for this purpose under `<NeMo_root>/examples/speaker_recognition` folder.
+Speaker label Inference, is to infer speaker labels from a pretrained speaker model with known speaker labels. We provide `speaker_reco_infer.py` script for this purpose under `<NeMo_root>/examples/speaker_tasks/recognition` folder.
 
 The audio files should be 16KHz monochannel wav files.
 
