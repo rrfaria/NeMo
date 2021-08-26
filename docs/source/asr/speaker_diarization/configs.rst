@@ -9,7 +9,7 @@ The sections on this page cover each of these in more detail.
 
 
 Example configuration files for speaker diarization can be found in the
-``<NeMo_git_root>/examples/speaker_recognition/conf/speaker_diarization.yaml>``
+``<NeMo_git_root>/examples/speaker_tasks/diarization/conf/speaker_diarization.yaml>``
 
 .. note::
   For model details and deep understanding about configs, finetuning, tuning threshold, and evaluation, 

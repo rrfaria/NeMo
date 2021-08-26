@@ -15,7 +15,5 @@ This folder contains scripts for performing various speaker related tasks as bre
 : Sample script to demonstrate on how to finetune a already trained model for specific sub tasks.
  - **voxceleb_eval.py**
 : Helper script to evaluate speaker embeddings on voxceleb trail files.  
- - **speaker_diarize.py**
-: Inference script for speaker diarization - knowing who spoke when. 
  - **conf/**
 : Folder containing configuration files for training speaker tasks. We currently only support inference for speaker diarization. 

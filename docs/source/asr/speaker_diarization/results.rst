@@ -44,7 +44,7 @@ Run and evaluate speaker diarizer with below command:
 .. code-block:: bash
 
   # Have a look at the instruction inside the script and pass the arguments you might need. 
-  python <NeMo_git_root>/examples/speaker_recognition/speaker_diarize.py 
+  python <NeMo_git_root>/examples/speaker_tasks/diarization/speaker_diarize.py 
 
 
 NGC Pretrained Checkpoints
