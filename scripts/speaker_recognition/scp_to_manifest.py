@@ -20,6 +20,8 @@ import os
 import librosa as l
 from sklearn.model_selection import StratifiedShuffleSplit
 from tqdm import tqdm
+import random
+random.seed(42)
 
 
 """
@@ -49,6 +51,7 @@ def main(scp, id, out, split=False):
     if os.path.exists(out):
         os.remove(out)
     scp_file = open(scp, 'r').readlines()
+    scp_file = sorted(scp_file)
 
     lines = []
     speakers = []
